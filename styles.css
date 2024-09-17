@@ -1,0 +1,78 @@
+:root{
+    --blue: rgb(0, 20, 60);
+}
+body{
+  background-color: rgb(242, 240, 250);
+  height: 80vh;
+  font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 50%;
+    height: 80vh;
+    margin: auto auto;
+    position: absolute;
+    left: 25%;
+    top: 8vh;
+    text-align: center;
+}
+.heading{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    height: 40px;
+    border: var(--blue) solid 6px;
+    border-radius: 25px;
+    font-size: 30px;
+    word-spacing: 0px;
+    margin: 0 auto 12px auto ;
+    text-align: center;
+    padding-top: 0;
+    background-color: white;
+}
+fieldset{
+    width: 70%;
+    height: calc(100% - 75px);
+    margin: 0 auto;
+    border: var(--blue) dashed 3px;
+    border-radius: 12px;
+    background-color: white;
+}
+.point-set{
+    width: 80%;
+    margin: 15px auto;
+    padding-bottom: 15px;;
+}
+.inputInstructions{
+    display: inline-block;
+    color: var(--blue);
+}
+.input{
+    width: 15%;
+    height: 4.5vh;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+}
+.solve{
+    width: 15vw;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(251, 250, 255);
+    border: var(--blue) double 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.perimeter, .area{
+    width: 70%;
+    height: 10%;
+    margin: 0 auto;
+}
+#perimeter, #area{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    display: inline-block;
+    margin-left: 15px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Area Of A Triangle From 3 Points</title>
+        <meta charset="UTF-8">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 class="heading">Area of a Triangle from 3 Points</h1>
+            </div>
+            <fieldset>
+                <div class="point-set-1 point-set">
+                    <p class="inputInstructions">Coordinates (x1, y1)</p>
+                    <input placeholder="x1" class="input" id="x1" type="number"></input>
+                    <input placeholder="y1" class="input" id="y1" type="number"></input>
+                </div>
+                <div class="point-set-2 point-set">
+                    <p class="inputInstructions">Coordinates (x2, y2)</p>
+                    <input placeholder="x2" class="input" id="x2" type="number"></input>
+                    <input placeholder="y2" class="input" id="y2" type="number"></input>
+                </div>
+                <div class="point-set-3 point-set">
+                    <p class="inputInstructions">Coordinates (x3, y3)</p>
+                    <input placeholder="x3" class="input" id="x3" type="number"></input>
+                    <input placeholder="y3" class="input" id="y3" type="number"></input>
+                </div>
+                <button id="solve" class="solve" type="button">Solve</button>
+                <div class="perimeter"><p>Perimeter <span>=</span><span id="perimeter"></span></p></div>
+                <div class="area"><p>Area <span>=</span><span id="area"></span></p></div>
+            </fieldset>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
